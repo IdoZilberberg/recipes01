@@ -30,6 +30,7 @@ www/
 $RECYCLE.BIN/
 
 .idea/workspace.xml
+*.iml
 .DS_Store
 Thumbs.db
 UserInterfaceState.xcuserstate
