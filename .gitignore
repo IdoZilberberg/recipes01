@@ -12,7 +12,6 @@ log.txt
 .vscode/
 npm-debug.log*
 
-.idea/
 .sourcemaps/
 .sass-cache/
 .tmp/
@@ -30,6 +29,10 @@ plugins/ios.json
 www/
 $RECYCLE.BIN/
 
+.idea/workspace.xml
 .DS_Store
 Thumbs.db
 UserInterfaceState.xcuserstate
+
+*.js
+*.js.map
