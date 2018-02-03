@@ -1,7 +1,9 @@
-
 <ion-header>
 
   <ion-navbar>
+    <button ion-button icon-only menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
     <ion-title>Shopping List</ion-title>
   </ion-navbar>
 
@@ -27,7 +29,8 @@
       type="submit"
       block
       [disabled]="!f.valid"
-    >Add Item</button>
+    >Add Item
+    </button>
   </form>
 
   <ion-list>

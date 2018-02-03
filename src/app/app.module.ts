@@ -12,6 +12,8 @@ import {ShoppingListPage} from "../pages/shopping-list/shopping-list";
 import {EditRecipePage} from "../pages/edit-recipe/edit-recipe";
 import {ShoppingListService} from "../services/shopping-list.service";
 import {RecipesService} from "../services/recipes.service";
+import {SigninPage} from "../pages/signin/signin";
+import {SignupPage} from "../pages/signup/signup";
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import {RecipesService} from "../services/recipes.service";
     RecipesPage,
     RecipePage,
     EditRecipePage,
-    ShoppingListPage
+    ShoppingListPage,
+    SigninPage,
+    SignupPage
   ],
   imports: [
     BrowserModule,
@@ -33,14 +37,16 @@ import {RecipesService} from "../services/recipes.service";
     RecipesPage,
     RecipePage,
     EditRecipePage,
-    ShoppingListPage
+    ShoppingListPage,
+    SigninPage,
+    SignupPage
   ],
   providers: [
     StatusBar,
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
-    ShoppingListService,
-    RecipesService
+    // RecipesService,
+    ShoppingListService
   ]
 })
 export class AppModule {
